@@ -1,0 +1,69 @@
+:root {
+  --color1: #1E1E1E;
+  --color2: #EDEDED;
+}
+
+body {
+  margin: 0;
+  background: var(--color2);
+  height: 100vh;
+}
+
+.container {
+  margin: auto;
+  overflow: hidden;
+  width: 90%;
+  height: 100%;
+}
+
+nav {
+  width: 100%;
+  height: 64px;
+  background: var(--color1);
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav img {
+  height: 80%;
+  margin: auto 0;
+}
+
+nav h1 {
+  margin: auto 0;
+  font-size: 2em;
+  color: var(--color2);
+}
+
+main {
+  height: 100%;
+}
+
+main .container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  height: 100%;
+}
+
+main .topic {
+  width: 90%;
+  border: 4px solid #1E1E1E;
+  box-shadow: 0px 0px 15px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin: 1.2em 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 12%;
+}
+
+#arrow {
+  height: 40%;
+  transform: rotateZ(-90deg);
+}
