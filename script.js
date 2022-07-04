@@ -1,5 +1,5 @@
 for(let title of document.querySelectorAll(".topic")) {
   title.onclick = () => {
-    title.
+    title.parentNode.querySelector(".info").classList.toggle("hide");
   }
 }
