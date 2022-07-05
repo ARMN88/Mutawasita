@@ -73,3 +73,13 @@ main {
 hr {
   border: 1px solid var(--color1);
 }
+
+h4, h3, p {
+  margin-bottom: .04em 0;
+}
+
+span {
+  color: dodgerblue;
+  text-decoration: underline;
+  cursor: pointer;
+}
