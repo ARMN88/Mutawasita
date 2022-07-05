@@ -75,9 +75,8 @@ hr {
 }
 
 h4, h3, p {
-  margin-bottom: .04em 0;
+  margin-bottom: .4em;
 }
-
 span {
   color: dodgerblue;
   text-decoration: underline;
