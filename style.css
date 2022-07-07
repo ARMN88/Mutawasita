@@ -6,6 +6,7 @@
 body {
   margin: 0;
   background: var(--color2);
+  font-size: 1.2rem;
 }
 
 .container {
@@ -77,8 +78,9 @@ hr {
 h4, h3, p {
   margin-bottom: .4em;
 }
+
 span {
-  color: dodgerblue;
-  text-decoration: underline;
-  cursor: pointer;
+  background: #d1d1d1;
+  padding: 0.2em;
+  border-radius: 10%;
 }
